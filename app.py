@@ -14,3 +14,11 @@ param2 = 20
 resultado = multiplicar(param1, param2)
 print("La multiplicación de 10 y 20 es:", resultado)
 
+
+def sumar(param1, param2):
+    resultado = param1 + param2
+    return resultado
+
+resultado = sumar(10, 20)
+print("Resultado de la suma es: ")
+print(resultado)
